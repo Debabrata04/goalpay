@@ -1,0 +1,40 @@
+name: goalpay
+description: GoalPay - AI-based goal-oriented micro investing for Bharat
+publish_to: 'none'
+version: 1.0.0+1
+
+geolocator: ^10.1.0
+geocoding: ^2.1.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Networking
+  http: ^1.2.1
+
+  # Local storage (persist goals across sessions)
+  shared_preferences: ^2.2.3
+
+  # Beautiful charts for savings progress
+  fl_chart: ^0.68.0
+
+  # Google Fonts (DM Sans + Syne)
+  google_fonts: ^6.2.1
+
+  # Date formatting
+  intl: ^0.19.0
+
+  # Unique IDs for goals
+  uuid: ^4.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
